@@ -15,7 +15,7 @@ The goal of this project is to build a robust cyber security framework that secu
 ## System Architecture
 The system comprises two main units:
 <br />
-![image info](images/image4.jpg)
+![image info](images/image2.jpg)
 1. **Transmitter**
    - **Purpose**: Encrypts messages and prepares them for secure transmission to the receiver.
    - **Encryption Algorithm**: Uses the ChaCha20 algorithm, chosen for its efficiency, low memory usage, and strong security properties.
