@@ -31,7 +31,7 @@ ChaCha20 is a symmetric-key stream cipher designed for efficiency and security, 
 - **Key and Nonce**: Each message is encrypted with a 256-bit key and a 96-bit nonce, ensuring unique ciphertexts for identical messages.
 - **Security Features**: ChaCha20’s bitwise operations, such as XOR and bit rotations, achieve high levels of diffusion and protect against common cryptographic attacks.
 - **Efficiency**: ChaCha20’s minimal memory requirements and reduced complexity make it ideal for high-speed, resource-limited environments.
-<br />
+
 ![image info](images/image5.jpg)
 ### Testing the Algorithm of the Encryption
 ## Project Workflow
