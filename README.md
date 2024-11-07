@@ -28,6 +28,7 @@ The system comprises two main units:
    - **AXI Stream Protocol**: Receives encrypted data and passes decrypted messages back to the main system through the AXI Stream protocol.
 <br />
 ![image info](images/image2.jpg)
+<br />
 ## Encryption & Authentication with ChaCha20
 ChaCha20 is a symmetric-key stream cipher designed for efficiency and security, making it suitable for both hardware and software implementations. Here’s how it functions in this system:
 - **Key and Nonce**: Each message is encrypted with a 256-bit key and a 96-bit nonce, ensuring unique ciphertexts for identical messages.
@@ -37,6 +38,7 @@ ChaCha20 is a symmetric-key stream cipher designed for efficiency and security, 
 ![image info](images/image5.jpg)
 <br />
 ![image info](images/image4.jpg)
+<br />
 ## Project Workflow
 The project workflow is divided into the following steps:
 
@@ -65,6 +67,8 @@ This project could be expanded to support additional features:
 - **Broader Protocol Support**: Add support for more communication protocols for increased system versatility.
 <br />
 ![image info](images/image1.jpg)
+<br />
+
 ## Conclusion
 The Cyber Security Message Authentication project demonstrates an effective approach to secure communication over public channels. By using ChaCha20 encryption and the AXI Stream protocol, the system ensures both the authenticity and integrity of messages, contributing to a reliable cybersecurity framework.
 
