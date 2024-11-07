@@ -35,6 +35,7 @@ ChaCha20 is a symmetric-key stream cipher designed for efficiency and security, 
 
 ![image info](images/image5.jpg)
 ### Testing the Algorithm of the Encryption
+![image info](images/image4.jpg)
 ## Project Workflow
 The project workflow is divided into the following steps:
 
