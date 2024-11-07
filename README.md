@@ -5,8 +5,7 @@ This project implements a secure message authentication system that uses encrypt
 
 ## Background
 The goal of this project is to build a robust cyber security framework that securely transmits encrypted messages across public channels. This is achieved by designing two units—a transmitter and a receiver—that can exchange messages while verifying each message’s authenticity. Using ChaCha20 encryption and an authentication tag, the system prevents unauthorized entities from accessing message content, adding layers of protection such as message counters and timestamps to guard against replay attacks.
-<br />
-![image info](images/image2.jpg)
+
 ### Key Components of the Authentication System
 1. **Message Counter**: Ensures messages are received in sequence, helping detect any missing messages.
 2. **Timestamp**: Embeds time-based information within each message, preventing delayed or replayed messages.
@@ -15,7 +14,8 @@ The goal of this project is to build a robust cyber security framework that secu
 
 ## System Architecture
 The system comprises two main units:
-
+<br />
+![image info](images/image2.jpg)
 1. **Transmitter**
    - **Purpose**: Encrypts messages and prepares them for secure transmission to the receiver.
    - **Encryption Algorithm**: Uses the ChaCha20 algorithm, chosen for its efficiency, low memory usage, and strong security properties.
