@@ -25,7 +25,7 @@ The system comprises two main units:
    - **Decryption Process**: Utilizes the ChaCha20 algorithm to decrypt the message, followed by a verification step using the authentication tag.
    - **Authentication Check**: Ensures that the authentication tag and message counter are correct, validating the message’s authenticity.
    - **AXI Stream Protocol**: Receives encrypted data and passes decrypted messages back to the main system through the AXI Stream protocol.
-   - <br />
+     <br />
 ![image info](images/image6.jpg)
 ## Encryption & Authentication with ChaCha20
 ChaCha20 is a symmetric-key stream cipher designed for efficiency and security, making it suitable for both hardware and software implementations. Here’s how it functions in this system:
