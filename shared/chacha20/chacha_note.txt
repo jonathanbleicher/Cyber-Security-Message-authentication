@@ -1,0 +1,21 @@
+General notes and questions about the chacha mmodule:
+
+
+1. timing. do we need to figure out what fits in a clock cycle? do we treat all the logic as "done in one cycle?
+
+2. controls, what should be out handchake and control signals and where are they necessary?
+
+3. how to we acknowledge the little endian integers? (A 256-bit key, treated as a concatenation of eight 32-bit little-
+                                                        endian integers.
+
+                                                     A 96-bit nonce, treated as a concatenation of three 32-bit little-
+                                                         endian integers.
+
+                                                     A 32-bit block count parameter, treated as a 32-bit little-endian
+                                                         integers.)
+
+4. Parameters. are they critical?
+
+5. Implement the loop
+
+6.

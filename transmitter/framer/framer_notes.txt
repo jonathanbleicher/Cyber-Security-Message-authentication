@@ -1,0 +1,3 @@
+1. what accuracy do we want or the timestamp messages?
+
+2. assuming 32 bits for timestamp, 8 bits for message length, and 216 bits for the message itself.
