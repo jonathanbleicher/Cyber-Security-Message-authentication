@@ -13,14 +13,14 @@ The goal of this project is to build a robust cyber security framework that secu
 4. **Message Type**: Indicates the type of message (e.g., regular, password update, reset), allowing the receiver to interpret the context.
 
 ## System Architecture
+<br />
+![image info](images/image4.jpg)
 The system comprises two main units:
 1. **Transmitter**
    - **Purpose**: Encrypts messages and prepares them for secure transmission to the receiver.
    - **Encryption Algorithm**: Uses the ChaCha20 algorithm, chosen for its efficiency, low memory usage, and strong security properties.
    - **Message Preparation**: Adds a timestamp, message counter, and an authentication tag to each message.
    - **AXI Stream Protocol**: Communicates with the main system via the AXI Stream protocol, ensuring compatibility with industry-standard communication interfaces.
-   <br />
-   ![image info](images/image2.jpg)
 2. **Receiver**
    - **Purpose**: Decrypts messages received from the transmitter and validates their authenticity.
    - **Decryption Process**: Utilizes the ChaCha20 algorithm to decrypt the message, followed by a verification step using the authentication tag.
