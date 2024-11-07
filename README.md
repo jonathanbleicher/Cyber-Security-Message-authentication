@@ -19,8 +19,8 @@ The system comprises two main units:
    - **Encryption Algorithm**: Uses the ChaCha20 algorithm, chosen for its efficiency, low memory usage, and strong security properties.
    - **Message Preparation**: Adds a timestamp, message counter, and an authentication tag to each message.
    - **AXI Stream Protocol**: Communicates with the main system via the AXI Stream protocol, ensuring compatibility with industry-standard communication interfaces.
-<br />
-![image info](images/image2.jpg)
+   <br />
+   ![image info](images/image2.jpg)
 2. **Receiver**
    - **Purpose**: Decrypts messages received from the transmitter and validates their authenticity.
    - **Decryption Process**: Utilizes the ChaCha20 algorithm to decrypt the message, followed by a verification step using the authentication tag.
